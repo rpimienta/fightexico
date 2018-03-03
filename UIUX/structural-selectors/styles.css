@@ -1,0 +1,18 @@
+body div{
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #fff;
+}
+/*Color gray for p in all divs and exclude the one that has the class 'exclude'*/
+p:not(.exclude){
+  color:gray;
+}
+/*Color green for last h3 in all divs*/
+body h3:nth-last-of-type(1){
+  color:green;
+}
+
+/*Color blue for second p in all divs*/
+body p:nth-of-type(2){
+  color:blue;
+}

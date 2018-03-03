@@ -1,0 +1,30 @@
+/*Header content styles*/
+#header{
+  width:100%;
+  height: 100px;
+  display: inline-block;
+  padding: 8px;
+  border:4px solid black;
+  background-color: green;
+  color:white;
+}
+/*Sidebar content styles*/
+#sidebar{
+  width:25%;
+  height: 400px;
+  display: inline-block;
+  padding: 8px;
+  background-color: red;
+  color:white;
+  border:4px solid black;
+}
+/*Main content styles*/
+.post{
+  width:75%;
+  height: 200px;
+  padding: 8px;
+  display: inline-block;
+  background-color: blue;
+  color:white;
+  border:4px solid black;
+}
